@@ -1,0 +1,40 @@
+/* IMPORTANDO LAS FUENTES DE TEXTO NECESARIAS */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+/* IMPORTANDO LOS ARCHIVOS CSS NECESARIOS */
+@import url('./utilities/estandar.css');
+@import url('./components/header.css');
+@import url('./components/main.css');
+@import url('./components/footer.css');
+@import url();
+@import url('./utilities/responsive.css');
+
+
+
+/* GLOBAL */
+.heading-sm {
+  font-size: 2.2rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.main-container {
+  max-width: 120rem;
+  margin: auto;
+  width: 92%;
+}
+
+@keyframes wheel {
+  to {
+    opacity: 0;
+    top: 27px;
+  }
+}
+
+@-webkit-keyframes wheel {
+  to {
+    opacity: 0;
+    top: 27px;
+  }
+}
